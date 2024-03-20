@@ -29,7 +29,6 @@ class Car_inventory:
                     Car('Honda','CRV', 'Black', 2010, 400000), Car('Toyota','Highlander', 'White', 2018, 80000),
                     Car('Honda','CRZ', 'Black', 2018, 100000), Car('Toyota','RAV4', 'Yellow', 2021, 40000), 
                     Car('Dodge','Charger', 'Black', 2023, 4000), Car('Toyota','Corolla ', 'White', 2012, 300000)]
-        self.mainLoop()
         
     def createCarfrominput (self):                   
         make = input('Please provide the make of the car (enter to cancel): ')
@@ -172,4 +171,5 @@ class Car_inventory:
                 break
         
 
-Car_inventory()
+carView = Car_inventory()
+carView.mainLoop()
